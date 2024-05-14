@@ -1,0 +1,4 @@
+sudo apt install apache2-dev
+sudo systemctl status apache2.service -l --no-pager
+sudo apt-get install python3-pip apache2 libapache2-mod-wsgi-py3
+pip install mod_wsgi
